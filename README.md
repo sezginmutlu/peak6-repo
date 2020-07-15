@@ -19,3 +19,5 @@
 10 - In AWS, I created an A record pointing to the ingress IP address `http://34.96.117.132/` and set the name to `peak6.sezginmutlu.com`.
 
 11 - You can use the `peak6.sezginmutlu.com` too see the application.
+
+12 - GIT-repo: https://github.com/sezginmutlu/peak6-repo
