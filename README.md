@@ -8,16 +8,14 @@
 
 5 - Created a deployment using the `peak6-deploy.yaml` file.
 
-6 - Exposed the deployment as NodePort using the command: `k expose deploy peak6-deploy --name=np-peak6 --type=NodePort --port=80 --target-port=5000`
+6 - Using the file `peak6-ingress.yaml` ingress created that uses the service NodePort.
 
-7 - Using the file `peak6-ingress.yaml` ingress created that uses the service NodePort.
+7 - You can use the ingress IP to access the application. 
 
-8 - You can use the ingress IP to access the application. 
+8 - I have the domanin name as `sezginmutlu.com` through AWS. 
 
-9 - I have the domanin name as `sezginmutlu.com` through AWS. 
+9 - In AWS, I created an A record pointing to the ingress IP address `http://34.96.117.132/` and set the name to `peak6.sezginmutlu.com`.
 
-10 - In AWS, I created an A record pointing to the ingress IP address `http://34.96.117.132/` and set the name to `peak6.sezginmutlu.com`.
+10 - You can use the `peak6.sezginmutlu.com` too see the application.
 
-11 - You can use the `peak6.sezginmutlu.com` too see the application.
-
-12 - GIT-repo: https://github.com/sezginmutlu/peak6-repo
+11 - GIT-repo: https://github.com/sezginmutlu/peak6-repo
